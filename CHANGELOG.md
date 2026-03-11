@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.4.4](https://github.com/Polymarket/rs-clob-client/compare/v0.4.3...v0.4.4) - 2026-03-11
+
+### Fixed
+
+- *(ws)* handle broadcast::Lagged as recoverable instead of fatal ([#279](https://github.com/Polymarket/rs-clob-client/pull/279))
+- *(data::types)* zero len string at end date ([#276](https://github.com/Polymarket/rs-clob-client/pull/276))
+
+### Other
+
+- fix some minor issues in the comments ([#275](https://github.com/Polymarket/rs-clob-client/pull/275))
+- *(cargo)* bump uuid from 1.21.0 to 1.22.0 ([#283](https://github.com/Polymarket/rs-clob-client/pull/283))
+- *(cargo)* bump tokio from 1.49.0 to 1.50.0 ([#282](https://github.com/Polymarket/rs-clob-client/pull/282))
+- *(cargo)* bump serde_with from 3.16.1 to 3.17.0 ([#274](https://github.com/Polymarket/rs-clob-client/pull/274))
+- *(gha)* bump MarcoIeni/release-plz-action from 0.5.127 to 0.5.128 ([#281](https://github.com/Polymarket/rs-clob-client/pull/281))
+
 ## [0.4.3](https://github.com/Polymarket/rs-clob-client/compare/v0.4.2...v0.4.3) - 2026-02-25
 
 ### Added
